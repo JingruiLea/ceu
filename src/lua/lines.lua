@@ -1,3 +1,5 @@
+package.cpath = "/usr/local/lib/lua/5.3/lpeg.so;"
+
 m = require 'lpeg'
 m.setmaxstack(1000)
 
