@@ -358,6 +358,10 @@ end
     end
 end
 
+function AST.json(me) do
+
+end
+
 local function FF (F, str)
     local f = F[str]
     if type(f) == 'string' then

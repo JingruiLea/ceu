@@ -33,10 +33,10 @@ if CEU.opts.ceu then
     dofile 'codes.lua'
 end
 DBG,ASR = DBG1,ASR1
-if CEU.opts.env then
-    dofile 'env.lua'
-end
-if CEU.opts.cc then
-    dofile 'cc.lua'
-end
---AST.dump(AST.root)
+-- if CEU.opts.env then
+--     dofile 'env.lua'
+-- end
+-- if CEU.opts.cc then
+--     dofile 'cc.lua'
+-- end
+AST.dump(AST.root)
